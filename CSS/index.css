@@ -1,0 +1,125 @@
+body {
+  position: relative;
+  background: #acacac;
+  background: -webkit-gradient(linear, left bottom, left top, from(#acacac), to(#5a5a5a));
+  background: linear-gradient(0deg, #acacac 0%, #5a5a5a 100%);
+}
+
+/*Header*/
+header {
+  background-color: #ce1126;
+  height: 100px;
+}
+
+#logo {
+  padding: 11px;
+  margin: 0%;
+  max-width: 300px;
+  position: static;
+}
+
+#logo img {
+  width: 100%;
+}
+
+#carousel {
+  padding-top: 150px;
+  color: #fff;
+}
+
+#carousel h1 {
+  text-align: center;
+  font-size: 5vw;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#carousel .item img {
+  width: 100%;
+}
+
+.Place-box {
+  background-color: #ce1126;
+  max-width: 480px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 1px 6px black;
+          box-shadow: 0 1px 6px black;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.box-text {
+  padding: 2%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h4 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+h6 {
+  color: silver;
+}
+
+#img-in-box {
+  width: 100%;
+}
+
+#section2 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+}
+
+#section3 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+}
+
+#section4 {
+  padding-top: 50px;
+  height: 550px;
+  color: #fff;
+}
+
+.img_container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 65%;
+}
+
+.img_container img {
+  position: absolute;
+}
+
+#places, #restaurants, #events {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+/*--Footer--*/
+footer {
+  background-color: #ce1126;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+footer img {
+  width: 60%;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+footer a {
+  color: black;
+}
+/*# sourceMappingURL=index.css.map */

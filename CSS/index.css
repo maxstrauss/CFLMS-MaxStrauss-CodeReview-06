@@ -43,8 +43,6 @@ header {
   margin-bottom: 20px;
   -webkit-box-shadow: 0 1px 6px black;
           box-shadow: 0 1px 6px black;
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
 }
 
 .box-text {
@@ -99,27 +97,5 @@ h6 {
 #places, #restaurants, #events {
   margin-bottom: 3%;
   margin-top: 3%;
-}
-
-/*--Footer--*/
-footer {
-  background-color: #ce1126;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-}
-
-footer img {
-  width: 60%;
-}
-
-footer p {
-  font-size: 0.9em;
-}
-
-footer a {
-  color: black;
 }
 /*# sourceMappingURL=index.css.map */

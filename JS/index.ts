@@ -150,4 +150,5 @@ $(document).ready(function () {
     for (let i = 0; i < eventData.length; i++) {
         $("#events").append(`${eventData[i].eventBox()}`)
     }
-}
+
+});
